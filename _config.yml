@@ -1,0 +1,46 @@
+# Site settings
+title: 乔雪健的技术博客
+email: xuejian_qiao@163.com
+description: > #乔雪健的技术博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://xuejianqiao.github.io" # the base hostname & protocol for your site
+twitter_username: 1661195631@qq.com
+github_username:  xuejianqiao
+
+# Build settings
+#markdown: kramdown
+permalink: /:year/:month/:day/:title.html   #博文的固定链接
+paginate: 10                                #分页时每页博文数量
+author:                                     #自定义常亮
+  name: 乔雪健
+  email: xuejian_qiao@163.com
+  link: https://xuejianqiao.github.io/
+  weibo: http://weibo.com/1661195631
+  github: http://github.com/xuejianqiao
+title: 乔雪健的技术博客                             #自定义常量
+
+# avatar头像及Favicon
+avatar: https://avatars0.githubusercontent.com/u/25722255?s=400&u=8aff25fa21f717eb8293112423bff0b9d348e44a&v=4
+#favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+locals:                                     #自定义常量
+  tags: 标签
+  about: 关于
+active: 技术                                 #自定义常量
+subscribe_rss: /pages/atom.xml              #订阅地址
+markdown: kramdown                         #markdown解释器
+
+# google analytics 设置
+#ga:
+#  id:
+#  url:
+#
+
+# baidu analytics 设置
+
+#ba:
+#  src: //hm.baidu.com/hm.js?22d94317cfb9f9e0bb476228d9f79278
+
+# disqus 设置
+disqus:
+  shortname: leonyue
