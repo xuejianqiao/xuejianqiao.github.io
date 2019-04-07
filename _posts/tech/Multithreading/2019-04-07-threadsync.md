@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 线程同步
-category: Multithreading with C#
+category: Multithreading
 tags: Multithreading
 keywords: 
 description:
