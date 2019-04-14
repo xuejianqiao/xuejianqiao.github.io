@@ -3,7 +3,7 @@ title: 乔雪健的技术博客
 email: xuejian_qiao@163.com
 description: > #乔雪健的技术博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://xuejianqiao.github.io" # the base hostname & protocol for your site
+url: "https://xuejianqiao.github.io" # the base hostname & protocol for your site
 twitter_username: 1661195631@qq.com
 github_username:  xuejianqiao
 
@@ -14,7 +14,7 @@ paginate: 10                                #分页时每页博文数量
 author:                                     #自定义常亮
   name: 乔雪健
   email: xuejian_qiao@163.com
-  link: http://xuejianqiao.github.io/
+  link: https://xuejianqiao.github.io/
   weibo: http://weibo.com/1661195631
   github: http://github.com/xuejianqiao
 title: 乔雪健的技术博客                             #自定义常量
