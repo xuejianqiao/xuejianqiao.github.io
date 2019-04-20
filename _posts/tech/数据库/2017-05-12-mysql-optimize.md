@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQl语句优化技巧
-category: MySql
+category: 数据库
 tags: mysql;优化技巧
 keywords: 
 description:
