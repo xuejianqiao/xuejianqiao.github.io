@@ -14,7 +14,7 @@ description:
 ```java 
 using (var httpClient = new HttpClient())
 {
-    var response =
+    
 }
 
 ```
@@ -207,10 +207,10 @@ public  class HttpClientHelper
         }
 
 
-    public class HttpClientSigleton:Singleton<HttpClientSigleton>
+        public class HttpClientSigleton:Singleton<HttpClientSigleton>
         {
-        public HttpClient httpClient = null;
-        public HttpClientSigleton()
+             public HttpClient httpClient = null;
+             public HttpClientSigleton()
          {
             HttpClientHandler handler = new HttpClientHandler()
             {
@@ -219,10 +219,10 @@ public  class HttpClientHelper
                 AllowAutoRedirect = false,
                 AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
             };
-            httpClient = new HttpClient(handler);
+            httpClient = new HttpClient(handler);AF
             httpClient.DefaultRequestHeaders.ExpectContinue = false;
             httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-         }
+          }
        }
 
         //写法2  asp.Net Core 推荐的方式
