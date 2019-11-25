@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 面试常见的问题
-category: 中间件
+title: Redis面试常见的问题
+category: 数据库
 tags: Redis,redis
 keywords: 
 description:
