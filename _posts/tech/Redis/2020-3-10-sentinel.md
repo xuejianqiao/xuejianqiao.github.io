@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redis哨兵模式
-category: 数据库
+category: 中间件
 tags: Redis,redis
 keywords: 
 description:
