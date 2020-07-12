@@ -218,15 +218,16 @@ replicaof 192.168.40.128 6379
  ![image.png-27.9kB][10]
  
  5. 增加sentinel的访问权限
-   > chmod 777 /etc/init.d/sentinel
+ 
+  > chmod 777 /etc/init.d/sentinel
 
  6. 设置开机启动
  
-   > chkconfig sentinel on
+  > chkconfig sentinel on
  
  7. sentinel 服务的开启和关闭
-    > service sentinel start
-    > service sentinel stop
+   > service sentinel start
+   > service sentinel stop
  
 
  8. 开启 26379 端口，防止防火墙
