@@ -283,7 +283,7 @@ replicaof 192.168.40.128 6379
 
 ![image.png-6.8kB][19]
 
-#####（2） 这个时候我们再执行 sentinel get-master-addr-by-name 命令。从截图中可以看出 redis的主节点变成了192.168.40.129
+#####（2）这个时候我们再执行 sentinel get-master-addr-by-name 命令。从截图中可以看出 redis的主节点变成了192.168.40.129
 
 ![image.png-4.4kB][20]
 #####（3）我们再执行 sentinel slaves 命令，就可以看到 从节点信息变成了 192.168.40.128 以及 192.168.40.130
