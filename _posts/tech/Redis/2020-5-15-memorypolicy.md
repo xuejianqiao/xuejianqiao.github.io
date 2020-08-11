@@ -7,7 +7,7 @@ keywords:
 description:
 ---
 
-###一、 Redis 配置内存
+### 一、 Redis 配置内存
 
 
 #### 1、 通过 redis.conf 配置
@@ -110,7 +110,7 @@ Redis3.0对近似LRU算法进行了一些优化。新算法会维护一个候选
 
 
 
-### 四.LFU 算法
+### 四、LFU 算法
 
 LFU算法是Redis4.0里面新加的一种淘汰策略（Least Frequently Used）。它的核心思想是根据key的最近被访问的频率进行淘汰，被访问多的则被留下。LFU算法能更好的表示一个key被访问的热度。 最近被访问的次数越多，热度越高。
 
