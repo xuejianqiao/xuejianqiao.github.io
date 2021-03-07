@@ -1,7 +1,3 @@
-### 我的博客
-
-地址：[http://liuyanwei.jumppo.com](http://liuyanwei.jumppo.com)
-
 
 ### 安装说明
 
