@@ -122,4 +122,4 @@ LFU一共有两种策略：
 >* allkeys-lfu：在所有的key中使用LFU算法淘汰数据
 
 
-  [1]: https://img2020.cnblogs.com/blog/949661/202102/949661-20210219161539949-1975713354.png
+  [1]: http://static.zybuluo.com/qxjbeyond/dijh5uibwjj6thfm0dcn92ly/image.png
